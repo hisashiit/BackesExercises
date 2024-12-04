@@ -1,0 +1,15 @@
+#include <stdio.h> //ler e escrever
+#include <stdlib.h>
+int main() {
+    char letra;
+    int nro;
+    float n;
+    double d;
+
+    scanf("%c", &letra);
+    scanf("%d", &nro);
+    scanf("%f", &n);
+    scanf("%f", &d);
+    system("pause");
+    return 0;
+}
