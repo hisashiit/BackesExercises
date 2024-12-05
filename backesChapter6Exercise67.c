@@ -22,14 +22,19 @@ int main() {
     printf("A quantidade de pares = %d",count);
 
     int maior=vetor[0];
+    int menor = vetor[0];
     i = 1;
     while (i<10){
         if (maior<vetor[i]){
             maior = vetor[i];
         }
+        if (menor>vetor[i]){
+            menor = vetor[i];
+        }
         i++;
     }
-    printf("\nO maior numero: '%d'",maior);
+
+    printf("\nO maior numero: '%d'\nO menor numero: '%d'",maior,menor);
 
     return 0;
 }
