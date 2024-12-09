@@ -1,0 +1,1 @@
+I have made a review about everything I've learned in C by doing every single exercise from the book 'Linguagem C: Completa e Descomplicada' by Andre Backes - an ex professor from Universidade Federal de Uberlandia.
