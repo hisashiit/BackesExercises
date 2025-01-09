@@ -7,7 +7,6 @@ Número retornado = 321.*/
 #include <stdlib.h>
 #include <string.h>
 int inverter(int n, int i){
-    int j = 0;
     if (n>=1000){
         return i + inverter(n-1000,i);
     }
